@@ -1,0 +1,143 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+body    {
+    background: mediumturquoise;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+}
+nav     {
+    background: mistyrose;
+    height: 50px;
+    width: 100%;
+}
+.he  {
+    color: navy;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    padding: 10px 50px;
+}
+img     {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 30px;
+    
+}
+h5  {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+p   {
+    font-family: arial;
+    margin: 5px;
+    
+}
+.hob    {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0;
+}
+h1   {
+    background: black;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+ul  {
+    margin: 10px 0;
+}
+li  {
+    margin: 10px 0;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 15px;
+   text-transform: uppercase;
+}
+.foo    {
+    background: slategray;
+    padding: 5px;
+    width: 100%;
+}
+form input, textarea  {
+    font-family: arial;
+    background: rgba(255, 255,255, 1);
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 10px;
+    width: 20%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0, 0.03);
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+form input:focus    {
+    background: #d2d9dd;
+}
+button  {
+    color: blanchedalmond;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: black
+}
+button:hover    {
+    background: slategrey;
+    transition: 5s;
+}
+#foot   {
+    color: navy;
+    font-size: 15;
+    font-weight: normal;
+    text-align: center;
+    margin: 5px;
+    padding-top: 5px;
+}
+
+
+@media screen and (max-width: 760px)    {
+    
+nav     {
+    height: 40px;
+    width: auto;
+}
+.he {
+    font-size: 11px;
+    padding: 5px;
+}
+img     {
+    height: 150px;
+    width: 150px;
+    margin-top: 12px;
+}
+h1  {font-size: 25px; 
+    width: auto;
+}
+h5  {font-size: 20px;}
+p, li, hob  {font-size: 12px;
+    font-weight: normal;}
+
+form input, textarea {width: 60%;}   
+button  {margin-left: 70px;}
+.foo    {padding: 0;}
+button  {margin-left: 17px;
+padding: 3px;
+font-size: 12px;
+margin-top: 1px;}
+}
